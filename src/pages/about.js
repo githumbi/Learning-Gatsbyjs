@@ -1,14 +1,25 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from "react"
+import Layout from "../components/Layout"
+import styled from "styled-components"
 
 const about = () => {
   return (
     <Layout>
-      <div className='about-header'>
+      <Wrapper>
         <h1>hello about</h1>
-      </div>
+      </Wrapper>
     </Layout>
   )
 }
 
+//styled component
+const Wrapper = styled.section`
+  color: red;
+  h1 {
+    color: yellow;
+  }
+  text {
+    text-transform: uppercase;
+  }
+`
 export default about
