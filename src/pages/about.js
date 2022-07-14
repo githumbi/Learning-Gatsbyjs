@@ -3,13 +3,11 @@ import Layout from '../components/Layout'
 
 const about = () => {
   return (
-   
-      
-        <Layout>
-            <h1>hello about</h1>
-        </Layout>
-
-   
+    <Layout>
+      <div className='about-header'>
+        <h1>hello about</h1>
+      </div>
+    </Layout>
   )
 }
 
